@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Form</title>
+</head>
+<body>
+    <table border="2">
+        <form>
+      <thead>
+        <tr>
+            <th>Name</th>
+            <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>
+                <label for="name">Name</label>
+            </td>
+            <td>
+                <input type="text" name="name" id="name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="sex">Sex</label>
+            </td>
+            <td>
+                <input type="radio" name="sex" value="Male">Male
+                <br>
+                <input type="radio" name="sex" value="Female">Female
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="color">Eye color</label>
+            </td>
+            <td>
+                <select name="color" id="color">
+                    <option value="Green">Green</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Black">Black</option>
+                    <option value="Brown">Brown</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="check">Check all that apply</label>
+            </td>
+            <td>
+                <input type="checkbox" name="check" value="Over 6 feet tall">Over 6 feet tall
+                <br>
+                <input type="checkbox" name="check" value="Over 200 Pounds">Over 200 Pounds
+            </td>
+        </tr>
+        <tr >
+            <td colspan="2">
+                <label for="des">Describe your Athletic ability:</label>
+            </td>
+         
+        </tr>
+        <tr>
+             <td colspan="2">
+                    <textarea name="des" id="des" cols="30" rows="10"></textarea>
+                  </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                
+                <input type="submit" value="Enter my information">
+            </td>
+        </tr>
+      </tbody>
+    </form>
+    </table>
+</body>
+</html>
